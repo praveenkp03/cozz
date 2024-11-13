@@ -1,0 +1,62 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding-top: 100px; /* Add padding to prevent content from hiding behind the fixed container */
+}
+.container-all {
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;     
+    z-index: 9999;   
+    transition-duration: 1s;
+    max-width: auto;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+
+.container-all:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-category {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-category a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    background-color: #c7c8ca28;
+    border: 1px solid transparent;
+    width: 90px; /* Set equal width for both buttons */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 50px 0;
+}
+
+.btn-category .btn1 {
+    border-right: 1px solid rgba(0, 0, 0, 0.075);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.btn-category .btn2 {
+    border-left: 1px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+.men-category, .women-category {
+    display: none; /* Initially hide both */
+}
+
+.active {
+    display: block; /* Show when active */
+}

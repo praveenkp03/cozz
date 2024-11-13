@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hr {
+    border: none;
+    border-top: 2px solid #000;
+    margin: 20px 100px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), #f0f0f028), url(source/bacground.jpg); /* Adds gradient blending */
+    background-size: cover;
+    background-position: center;
+    filter: contrast(1) brightness(1); /* Decreases contrast and slightly dims the image */
+}
+
+/* Mobile styles */
+
+
+  
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.navbar-hero{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    width: 100%;
+    max-height: 115px;
+    height: 100%;
+    
+    
+}
+
+
+
+/* Navigation styling */
+nav  {
+    display: flex;
+    justify-content: flex-end;
+     /* Move the ul to the right */
+}
+
+/* Styling for ul */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* List item styling */
+nav ul li {
+    margin: 0 20px;  /* Add space between each link */
+}
+
+/* Link styling */
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Cart icon styling */
+.icon-cart {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and (0) */
+}
+
+
+
+
+
+.icon-cart i {
+    font-size: 15px; /* Size of the icon */
+    color: #000000;
+}
+
+.icon-cart span {
+    font-size: 12px; /* Size of the (0) */
+    color: #000000;
+    
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin-top: 19%;
+}
+
+.hero h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+}
+
+.hero .btn a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background-color: #8a8a8a;
+}
+
+.ctegorie-new{
+    margin: 70px 0;
+    text-align: center;
+}
+
+.ctegorie-new h1 {
+
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 23%;
+    min-width: 240px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+
+.col-2 img {
+
+    width: 100%;
+}
+
+.name-tag{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 20%;
+}
+
+.cal-1 h1{
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.cal-2 input {
+    height: 30px;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    background-color: #d6d6d6;
+}
+
+.cal-2 button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.contact-us-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 20%;
+}
+.contact-form h4{
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: none;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.contact-form .form-group {
+    margin: 8px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    height: 25px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: #d6d6d6
+
+}
+
+.contact-form textarea {
+    height: 70px;
+}
+
+.contact-form button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+
+
+.customer-care {
+    margin: 20px;
+}
+
+.customer-care h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+
+.customer-care ul {
+    list-style: none;
+    padding: 0;
+}
+
+.customer-care ul li {
+    margin: 5px 0;
+}
+
+.customer-care ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.customer-care ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 20%;
+}
+
+.footer-2-cal-1 i {
+    margin: 0 5px;
+}
+
+.footer-2-cal-1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footer-3-cal-2 h4 {
+    font-weight: 200;
+
+}
+
+.footer-3-cal-2 {
+    margin-right: 50px;
+}
+
+.logo-all img {
+    width: 70px;
+    height: auto;
+    margin-left: 50px;
+    
+}
+
+.ul-all a {
+    color: black;
+}
+
+.cart-count h6{
+    color: white;
+
+}
+
+
+
+.plus-mark {
+    position: absolute;
+    bottom: 50px; 
+    left: 50%;
+    transform: translateX(-50%); /* Centers the circle horizontally */
+    
+    background-color: #ffffff60;
+    color: rgb(0, 0, 0);
+    width: 30px;  /* Equal width and height for a perfect circle */
+    height: 30px; /* Equal width and height for a perfect circle */
+    border-radius: 50%; /* Makes the element a perfect circle */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;  
+}
+
+.plus-mark:hover {
+    border: 1px solid rgba(0, 0, 0, 0.822);
+    
+}
+
+@media (max-width: 600px) {
+    .nav li a {
+        
+        color: rgb(0, 0, 0);
+    }
+    /* .container {
+        background-image: none;
+    } */
+
+    nav li a {
+        text-decoration: none;
+        color: black; /* This is already set, but keep it if necessary */
+    }
+
+    .hero h1{
+        color: black;/* Update this to the color you want for mobile */
+    }
+    .hr{
+        margin: 20px 30px;
+    }
+    .row-1,
+    .contact-us-section{
+        margin: 10px 30px;
+        
+        
+    }
+    .cal-1 h1 {
+        
+        margin-bottom: 20px;
+    
+    }
+
+    .cal-2 input{
+        margin: 4px 0 2px ;
+    }
+    
+    .contact-form .form-group {
+        margin: 5px 8px ;
+    }
+    .contact-form h4{
+        display: block;
+    }
+    
+    .contact-form label,
+    .cal-2 label {
+        margin-bottom: 5px;
+        color: #505050;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: 250px;
+    
+    }
+    
+    .contact-form textarea {
+        height: 70px;
+    }
+    
+    .contact-form button {
+        right: auto;
+    }
+
+    .footer-2 {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+    
+    .footer-2-cal-1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .footer-2-cal-1 i {
+        margin: 0 5px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-2-cal-1 a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .footer-3-cal-2 h4 {
+        font-weight: 200;
+        font-size: 12px;
+    
+    }
+    
+    .footer-3-cal-2 {
+        margin: 0;
+    }
+    
+    
+}

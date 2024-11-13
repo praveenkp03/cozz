@@ -1,0 +1,109 @@
+.log-container{
+
+    margin: 50px 70px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 20px;
+    font-family: "Nanum Gothic", sans-serif;
+    width: 40%;
+    
+    
+    
+}
+
+
+
+/* Container for each input and label */
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+    max-width: 400px;
+    width: 100%;
+    
+}
+
+/* Styling for the input field */
+.input-container input {
+    border: none;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    width: 100%;
+    padding: 15px 0 5px 5px;
+    font-size: 12PX;
+    color: rgb(139, 139, 139);
+    outline: none;
+    background: none;
+    
+}
+
+/* Initial position of the label */
+.input-container label {
+    position: absolute;
+    font-size: 13px;
+    top: 25px;
+    left: 0;
+    color: #aaa;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: 0.2s ease all;
+}
+
+/* Move label to the top when input is focused or has text */
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: -0.5px;
+    font-size: 10px;
+    color: #aaa;
+}
+.styled-input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Style for error messages */
+.error-message {
+color: rgba(182, 7, 7, 0.774);
+font-size: 12px;
+padding-top: 5px;
+font-family: "Nanum Gothic", sans-serif;
+visibility: hidden; /* Initially hide the error message without affecting layout */
+opacity: 0; /* Hide content while keeping space occupied */
+transition: opacity 0.3s ease-in-out; /* Smooth transition when showing/hiding */
+}
+
+/* Show the error message when needed */
+.error-message.visible {
+visibility: visible;
+opacity: 1; /* Make the content visible */
+}
+
+.log-container h1{
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    margin-bottom: 40px;
+    
+}
+
+.log-container h5{
+    color: #3f3e3e;
+    margin: 25px 0;
+    font-size: 12px;
+}
+
+.statment-con label{
+    color: #3f3e3e;
+    font-size: 12px;
+    
+}
+
+.statment-con a{
+    text-decoration: none;
+    color: #3f3e3e;
+}
+.log-container button{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: white;
+}

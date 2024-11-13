@@ -1,0 +1,57 @@
+.l-container {
+    margin: 80px 250px; 
+    margin: 100px auto;
+    height: 60vh;
+    width: 100%;
+    max-width: 650px;
+   
+}
+
+.l-container h2{
+    font-family: "Comic Neue", cursive;
+    margin-bottom: 10px;
+    font-weight: 300;
+    
+}
+
+.l-container h4{
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+}
+
+.l-container button{
+    font-family: "Comic Neue", cursive;
+    cursor: pointer;
+}
+
+.l-container .btn1{
+    background-color: black;
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 10px 0;
+    margin: 23px 0;
+    color: white;
+}
+   
+
+.l-container .btn2{
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.l-container .btn1 a{
+    
+        text-decoration: none;
+        color: white;
+}
+
+
+
+.l-container .btn2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+

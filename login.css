@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.header img{
+    width: 150px;
+    height: auto;
+    margin-left: -18.5%;
+    
+}
+
+
+.log-container{
+
+    margin: auto;
+    width: 100%;
+    max-width: 380px;
+    padding: 20px 20px;
+    font-family: "Nanum Gothic", sans-serif;
+    width: 40%;
+    
+}
+
+.log-container h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.log-container input{
+    
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin: 20px 0;
+    padding-left: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.log-container a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.747);
+    margin-top: 100px;
+
+}
+
+.log-container h2{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.log-container button{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: white;
+}
